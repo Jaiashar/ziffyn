@@ -1,16 +1,18 @@
 # Ziffyn
 
-**An at-home chef service built from scratch as three connected applications.**
+**An at-home chef service I built from scratch, with separate applications for consumers, the marketplace, and chefs/drivers.**
 
-I built Ziffyn while teaching myself iOS development. The project brought together the customer experience, a marketplace, and the chef/driver side of the service. Building all three meant thinking through how one service should work for people using it in very different roles.
+I taught myself iOS development to build Ziffyn. I built three connected applications around the different people involved in the service. The customer experience, marketplace, and service-provider experience had to fit together as one product.
 
-## Three apps, one service
+## The product
 
-| Application | Role in the product |
-| --- | --- |
-| Consumer app | The customer-facing experience for the at-home chef service |
-| Marketplace app | The marketplace component connecting the service's participants |
-| Chef/driver app | The application for the people providing and fulfilling the service |
+Ziffyn was an at-home chef service. Its software had three major components:
+
+| Application | Who it served | Responsibility in the product |
+| --- | --- | --- |
+| Consumer app | Customers using the service | The customer-facing experience |
+| Marketplace app | Participants in the marketplace | The marketplace component connecting the service's different sides |
+| Chef/driver app | People providing and fulfilling the service | The service-provider experience |
 
 ```mermaid
 flowchart LR
@@ -18,14 +20,20 @@ flowchart LR
     B <--> C[Chef / driver app]
 ```
 
-This diagram describes the product roles, rather than a recovered backend or database architecture.
+The diagram describes the product's three application roles. It does not specify an undocumented backend, database schema, or dispatch system.
 
-## What I built and learned
+## My work
 
-I learned iOS from scratch and built the three-app product. The challenge went beyond implementing individual screens: each application served a different user while participating in the same service. It was an early experience taking a product idea through the work of building its connected applications.
+I built the three applications from scratch and learned iOS along the way. This meant taking responsibility for both the product's different user experiences and the implementation work needed to make them part of the same service.
 
-## About this repository
+The project was an early example of how I approach building: learn the platform, break a larger product into clear responsibilities, and carry the implementation across those parts rather than stopping at a single interface.
 
-This is a project case study. The original application source and screenshots are not included in this public repository. It documents my work without presenting a recreated app as the original implementation.
+## What this repository contains
 
-[More of my work](https://github.com/Jaiashar)
+This repository is a case study of the original project. The original application source, screenshots and a runnable build are not included. There are consequently no installation commands or demo credentials here.
+
+## Related work
+
+- [Auricore Mobile](https://github.com/Jaiashar/auricore-mobile): public React Native source for item intake, inventory and marketplace workflows.
+- [PennOS](https://github.com/Jaiashar/penn-os): an operating-system project showing the systems side of my work.
+- [Full portfolio](https://github.com/Jaiashar): products, systems and AWS infrastructure contributions.
