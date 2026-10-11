@@ -4,7 +4,7 @@
 
 **This is a product and engineering case study.** The original application source has not yet been recovered for publication, so this repository documents the product and my role rather than providing runnable apps.
 
-We saw an opportunity in talented home cooks who could serve customers without opening a conventional restaurant. Ziffyn connected that supply with people looking for home-cooked meals. We recruited hundreds of chefs, and I taught myself iOS development to build the consumer app, marketplace app, and chef/driver app from scratch.
+I cofounded Ziffyn around an opportunity in talented home cooks who could serve customers without opening a conventional restaurant. The marketplace connected that supply with people looking for home-cooked meals. We recruited hundreds of chefs, and I taught myself iOS development to build the consumer app, marketplace app, and chef/driver app from scratch.
 
 ## The niche: home cooks becoming food businesses
 
@@ -22,7 +22,7 @@ The work involved building both marketplace supply and the software to serve it.
 | Consumer application | Customer-facing side of the home-chef service |
 | Marketplace application | Marketplace experience connecting customers and chef supply |
 | Chef/driver application | Provider-facing side of service preparation and fulfillment |
-| My engineering role | Built all three applications from scratch while learning iOS |
+| My role | Cofounder; built all three applications from scratch while learning iOS |
 
 ## Product architecture
 
